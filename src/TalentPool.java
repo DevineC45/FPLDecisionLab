@@ -21,15 +21,15 @@ public class TalentPool {
     Defender def9 = new Defender("Milan Van Ewijk", "Coventry", 4.0);
 
     Midfielder mid1 = new Midfielder("Bruno Fernandes", "Man United", 12.0);
-    Midfielder mid2 = new Midfielder("Cole Palmer", "Man United", 9.5);
-    Midfielder mid3 = new Midfielder("Antoine Semenyo", "Man United", 8.5);
-    Midfielder mid4 = new Midfielder("Morgan Gibbs-White", "Man United", 8.0);
-    Midfielder mid5 = new Midfielder("Florian Wirtz", "Man United", 7.5);
-    Midfielder mid6 = new Midfielder("Dominik Szoboszlai", "Man United", 7.0);
-    Midfielder mid7 = new Midfielder("Elliot Anderson", "Man United", 6.5);
-    Midfielder mid8 = new Midfielder("Kevin Schade", "Man United", 6.0);
-    Midfielder mid9 = new Midfielder("James McAtee", "Man United", 5.5);
-    Midfielder mid10 = new Midfielder("Diego Gomez", "Brighton", 5.0);
+    Midfielder mid2 = new Midfielder("Cole Palmer", "Chelsea", 9.5);
+    Midfielder mid3 = new Midfielder("Antoine Semenyo", "Man City", 8.5);
+    Midfielder mid4 = new Midfielder("Morgan Gibbs-White", "Nott'm Forest", 8.0);
+    Midfielder mid5 = new Midfielder("Florian Wirtz", "Liverpool", 7.5);
+    Midfielder mid6 = new Midfielder("Dominik Szoboszlai", "Liverpool", 7.0);
+    Midfielder mid7 = new Midfielder("Elliot Anderson", "Man City", 6.5);
+    Midfielder mid8 = new Midfielder("Kevin Schade", "Brentford", 6.0);
+    Midfielder mid9 = new Midfielder("James McAtee", "Nott'm Forest", 5.5);
+    Midfielder mid10 = new Midfielder("Diego Gomez", "Nott'm Forest", 5.0);
 
     Forward fwd1 = new Forward("Erling Haaland", "Man City", 15.5);
     Forward fwd2 = new Forward("Alexander Isak", "Liverpool", 9.0);
