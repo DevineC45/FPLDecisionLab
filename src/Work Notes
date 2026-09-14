@@ -1,0 +1,82 @@
+Main
+//Create my arrays – an array for each position
+Goalkeeper [] gkArr = new Goalkeeper [5]
+Defender [] defArr = new Defender [9]
+Midfielder [] midArr = new Midfielder [10]
+Forward [] fwdArr = new Forward [6]
+
+//Populate my arrays
+gkArr[0] = gk1 
+gkArr[1] = gk2 
+gkArr[2] = gk3 
+gkArr[3] = gk4 
+gkArr[4] = gk5
+
+//Methods to generate a random player from each array
+public static Goalkeeper randomGK(Goalkeeper [] gkArr){ //taking an array of GK objects
+Random random = new Random();
+int randomIndex = random.nextInt(gkArr.length);
+return gkArr[randomIndex]; //return the gk stored at this index
+}
+
+public static Defender randomDef (Defender [] defArr){
+Random random = new Random();
+int randomIndex = random.nextInt(defArr.length);
+return defArr[randomIndex];
+}
+
+
+public static Midfielder randomMid (Midfielder [] midArr){
+Random random = new Random ();
+int randomIndex = random.nextInt(midArr.length);
+return midArr[randomIndex];
+}
+
+public static Forward randomFwd (Forward [] fwdArr){
+Random random = new Random ();
+int randomIndex = random.nextInt(fwdArr.length);
+return fwdArr[randomIndex];
+}
+
+
+//FOR loops to actually choose the correct number of players from each position
+for (int I = 0; i<2; i++){
+Goalkeeper gk = randomGk(gkArr);
+System.out.println(gk.name);
+}
+
+for (int i = 0; i < 5; i++){
+Defender def = randomDef(defArr);
+System.out.println(def.name);
+}
+
+for (int i = 0; i < 5; i++){
+Midfielder mid = randomMid(midArr);
+System.out.println(mid.name);
+
+}
+for(int i=0;i<3;i++){
+Forward fwd = randomFwd(fwdArr);
+System.out.println(fwd.name);
+}
+
+//Figure out how to make it unique to avoid duplicate selections
+Change the arrays to array lists – these are dynamic and will allow for the adding and removal of elements.
+
+ArrayList<Goalkeeper> gks = new ArrayList<Goalkeeper>();
+//TalentPool class is actually just the instructions for making a talent pool. So we actually need to create one before we can begin taking things from it
+TalentPool freeAgents = new TalentPool(); 
+gks.add(freeAgents.gk1);
+
+ArrayList<Defender> defs = new ArrayList<Goalkeeper>();
+ArrayList<Midfielder> mids = new ArrayList<Goalkeeper>();
+ArrayList<Forward> fwds = new ArrayList<Goalkeeper>();
+
+
+
+
+
+
+
+
+
